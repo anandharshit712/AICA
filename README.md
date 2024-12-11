@@ -32,7 +32,7 @@ Before you start, ensure you have the following installed on your system:
    ```bash
    python -m venv venv
    source venv/bin/activate  # For Linux/macOS
-   venv\Scripts\activate    # For Windows
+   venv\Scriptsctivate    # For Windows
    ```
 
 3. Install the required dependencies:
@@ -70,22 +70,6 @@ Before you start, ensure you have the following installed on your system:
    python main.py --input <audio_file_path> --output <output_file_path> --language <target_language> --summarize
    ```
 
-## Directory Structure
-
-```
-AICA/
-├── audio_files/        # Directory to store input audio files
-├── models/             # Pre-trained models used for transcription and translation
-├── outputs/            # Generated outputs (transcriptions, translations, summaries)
-├── src/                # Source code for the project
-│   ├── transcriber.py  # Handles audio transcription
-│   ├── translator.py   # Manages multilingual translation
-│   ├── summarizer.py   # Generates content summaries
-│   └── utils.py        # Utility functions for audio processing
-├── requirements.txt    # Python dependencies
-└── README.md           # Project documentation
-```
-
 ## Contributing
 
 Contributions are welcome! If you encounter issues or have ideas for improvements, please feel free to submit an issue or a pull request.
@@ -113,9 +97,6 @@ Contributions are welcome! If you encounter issues or have ideas for improvement
    ```
 7. **Open a pull request**: Submit your changes for review on GitHub.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
