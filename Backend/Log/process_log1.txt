@@ -1,0 +1,255 @@
+2024-11-07 15:03:02,025 - WARNING - D:\Transcript_summarizer\main2_updated.py:24: LangChainDeprecationWarning: The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+  ollama = Ollama(base_url="http://localhost:11434", model="llama3.1")
+
+2024-11-07 15:03:02,037 - INFO - Script started with file path: Input_data\CallRecording1.mp3
+2024-11-07 15:03:02,037 - INFO - Starting main process
+2024-11-07 15:03:02,037 - INFO - Starting language detection for Input_data\CallRecording1.mp3
+2024-11-07 15:03:25,628 - INFO - Detected language: en
+2024-11-07 15:03:25,629 - INFO - Starting audio processing for Input_data\CallRecording1.mp3
+2024-11-07 15:04:37,843 - INFO - Audio conversion complete. Reducing noise...
+2024-11-07 15:07:25,095 - INFO - Noise reduction complete.
+2024-11-07 15:07:25,095 - INFO - Starting language detection for temp.wav
+2024-11-07 15:07:36,361 - INFO - Detected language: en
+2024-11-07 15:07:36,361 - INFO - Audio language: English
+2024-11-07 15:07:36,361 - INFO - Using AssemblyAI for transcription in English
+2024-11-07 15:15:01,030 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2024-11-07 15:15:01,222 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2024-11-07 15:15:01,355 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/99c43caf-116f-46eb-9fd6-2f2443848902 "HTTP/1.1 200 OK"
+2024-11-07 15:15:04,487 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/99c43caf-116f-46eb-9fd6-2f2443848902 "HTTP/1.1 200 OK"
+2024-11-07 15:15:07,618 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/99c43caf-116f-46eb-9fd6-2f2443848902 "HTTP/1.1 200 OK"
+2024-11-07 15:15:10,749 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/99c43caf-116f-46eb-9fd6-2f2443848902 "HTTP/1.1 200 OK"
+2024-11-07 15:15:13,881 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/99c43caf-116f-46eb-9fd6-2f2443848902 "HTTP/1.1 200 OK"
+2024-11-07 15:15:17,017 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/99c43caf-116f-46eb-9fd6-2f2443848902 "HTTP/1.1 200 OK"
+2024-11-07 15:15:20,147 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/99c43caf-116f-46eb-9fd6-2f2443848902 "HTTP/1.1 200 OK"
+2024-11-07 15:15:23,274 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/99c43caf-116f-46eb-9fd6-2f2443848902 "HTTP/1.1 200 OK"
+2024-11-07 15:15:26,404 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/99c43caf-116f-46eb-9fd6-2f2443848902 "HTTP/1.1 200 OK"
+2024-11-07 15:15:29,547 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/99c43caf-116f-46eb-9fd6-2f2443848902 "HTTP/1.1 200 OK"
+2024-11-07 15:15:32,690 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/99c43caf-116f-46eb-9fd6-2f2443848902 "HTTP/1.1 200 OK"
+2024-11-07 15:15:35,824 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/99c43caf-116f-46eb-9fd6-2f2443848902 "HTTP/1.1 200 OK"
+2024-11-07 15:15:38,953 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/99c43caf-116f-46eb-9fd6-2f2443848902 "HTTP/1.1 200 OK"
+2024-11-07 15:15:42,129 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/99c43caf-116f-46eb-9fd6-2f2443848902 "HTTP/1.1 200 OK"
+2024-11-07 15:15:45,413 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/99c43caf-116f-46eb-9fd6-2f2443848902 "HTTP/1.1 200 OK"
+2024-11-07 15:15:45,430 - INFO - English transcription complete.
+2024-11-07 15:15:45,431 - INFO - Saving file to Output_data/Transcript/English\CallRecording1_eng.txt
+2024-11-07 15:15:45,432 - INFO - File saved successfully
+2024-11-07 15:15:45,433 - INFO - Sending transcript to LLM for response
+2024-11-07 15:15:45,433 - WARNING - D:\Transcript_summarizer\main2_updated.py:81: LangChainDeprecationWarning: The method `BaseLLM.__call__` was deprecated in langchain-core 0.1.7 and will be removed in 1.0. Use :meth:`~invoke` instead.
+  response = ollama(prompt)
+
+2024-11-07 15:16:11,852 - INFO - Received response from LLM
+2024-11-07 15:16:11,852 - INFO - Getting LLM response...
+2024-11-07 15:16:11,852 - INFO - Saving file to Output_data/Response//English\CallRecording1_eng.txt
+2024-11-07 15:16:11,853 - INFO - File saved successfully
+2024-11-07 15:16:11,853 - INFO - Main process complete
+2024-11-07 15:16:11,853 - INFO - Execution time: 789.816033 seconds
+2024-11-09 13:37:24,928 - WARNING - D:\Transcript_summarizer\main2_updated.py:24: LangChainDeprecationWarning: The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+  ollama = Ollama(base_url="http://localhost:11434", model="llama3.1")
+
+2024-11-09 13:37:24,942 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/recording.wav
+2024-11-09 13:37:24,942 - INFO - Starting main process
+2024-11-09 13:37:24,942 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/recording.wav
+2024-11-09 13:48:38,377 - WARNING - D:\Transcript_summarizer\main2_updated.py:24: LangChainDeprecationWarning: The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+  ollama = Ollama(base_url="http://localhost:11434", model="llama3.1")
+
+2024-11-09 13:48:38,390 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/recording.wav
+2024-11-09 13:48:38,390 - INFO - Starting main process
+2024-11-09 13:48:38,391 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/recording.wav
+2024-11-09 13:51:37,207 - WARNING - D:\Transcript_summarizer\main2_updated.py:24: LangChainDeprecationWarning: The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+  ollama = Ollama(base_url="http://localhost:11434", model="llama3.1")
+
+2024-11-09 13:51:37,220 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/Carnial_nerves.mp3
+2024-11-09 13:51:37,220 - INFO - Starting main process
+2024-11-09 13:51:37,220 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/Carnial_nerves.mp3
+2024-11-09 13:51:50,300 - INFO - Detected language: en
+2024-11-09 13:51:50,300 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/Carnial_nerves.mp3
+2024-11-09 13:51:55,195 - INFO - Audio conversion complete. Reducing noise...
+2024-11-09 13:52:16,017 - INFO - Noise reduction complete.
+2024-11-09 13:52:16,018 - INFO - Starting language detection for temp.wav
+2024-11-09 13:52:26,724 - INFO - Detected language: en
+2024-11-09 13:52:26,724 - INFO - Audio language: English
+2024-11-09 13:52:26,725 - INFO - Using AssemblyAI for transcription in English
+2024-11-09 13:53:13,973 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2024-11-09 13:53:14,127 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2024-11-09 13:53:14,252 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/dfe0eab0-8517-4545-a354-a8d91b328cca "HTTP/1.1 200 OK"
+2024-11-09 13:53:17,382 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/dfe0eab0-8517-4545-a354-a8d91b328cca "HTTP/1.1 200 OK"
+2024-11-09 13:53:20,538 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/dfe0eab0-8517-4545-a354-a8d91b328cca "HTTP/1.1 200 OK"
+2024-11-09 13:53:23,748 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/dfe0eab0-8517-4545-a354-a8d91b328cca "HTTP/1.1 200 OK"
+2024-11-09 13:53:27,092 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/dfe0eab0-8517-4545-a354-a8d91b328cca "HTTP/1.1 200 OK"
+2024-11-09 13:53:27,444 - INFO - English transcription complete.
+2024-11-09 13:53:27,446 - INFO - Saving file to Output_data/Transcript/English\Carnial_nerves_eng.txt
+2024-11-09 13:53:27,447 - INFO - File saved successfully
+2024-11-09 13:53:27,447 - INFO - Sending transcript to LLM for response
+2024-11-09 13:53:27,448 - WARNING - D:\Transcript_summarizer\main2_updated.py:81: LangChainDeprecationWarning: The method `BaseLLM.__call__` was deprecated in langchain-core 0.1.7 and will be removed in 1.0. Use :meth:`~invoke` instead.
+  response = ollama(prompt)
+
+2024-11-09 13:53:28,073 - WARNING - D:\Transcript_summarizer\main2_updated.py:24: LangChainDeprecationWarning:
+
+The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+
+
+2024-11-09 13:53:28,087 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/Locked_Away.mp3
+2024-11-09 13:53:28,088 - INFO - Starting main process
+2024-11-09 13:53:28,088 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/Locked_Away.mp3
+2024-11-09 13:53:50,818 - INFO - Detected language: en
+2024-11-09 13:53:50,818 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/Locked_Away.mp3
+2024-11-09 13:53:52,077 - INFO - Audio conversion complete. Reducing noise...
+2024-11-09 13:54:01,250 - INFO - Noise reduction complete.
+2024-11-09 13:54:01,250 - INFO - Starting language detection for temp.wav
+2024-11-09 13:54:09,035 - INFO - Received response from LLM
+2024-11-09 13:54:09,035 - INFO - Getting LLM response...
+2024-11-09 13:54:09,035 - INFO - Saving file to Output_data/Response/English\Carnial_nerves_eng.txt
+2024-11-09 13:54:09,035 - INFO - File saved successfully
+2024-11-09 13:54:09,035 - INFO - Main process complete
+2024-11-09 13:54:09,036 - INFO - Execution time: 151.816805 seconds
+2024-11-09 13:54:20,509 - INFO - Detected language: en
+2024-11-09 13:54:20,510 - INFO - Audio language: English
+2024-11-09 13:54:20,510 - INFO - Using AssemblyAI for transcription in English
+2024-11-09 13:54:38,880 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2024-11-09 13:54:39,076 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2024-11-09 13:54:39,199 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/04a08841-d89f-442a-908b-1a6638bed6b0 "HTTP/1.1 200 OK"
+2024-11-09 13:54:42,323 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/04a08841-d89f-442a-908b-1a6638bed6b0 "HTTP/1.1 200 OK"
+2024-11-09 13:54:45,656 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/04a08841-d89f-442a-908b-1a6638bed6b0 "HTTP/1.1 200 OK"
+2024-11-09 13:54:45,759 - INFO - English transcription complete.
+2024-11-09 13:54:45,760 - INFO - Saving file to Output_data/Transcript/English\Locked_Away_eng.txt
+2024-11-09 13:54:45,760 - INFO - File saved successfully
+2024-11-09 13:54:45,760 - INFO - Sending transcript to LLM for response
+2024-11-09 13:54:45,761 - WARNING - D:\Transcript_summarizer\main2_updated.py:81: LangChainDeprecationWarning:
+
+The method `BaseLLM.__call__` was deprecated in langchain-core 0.1.7 and will be removed in 1.0. Use :meth:`~invoke` instead.
+
+
+2024-11-09 13:55:15,207 - WARNING - D:\Transcript_summarizer\main2_updated.py:24: LangChainDeprecationWarning: The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+  ollama = Ollama(base_url="http://localhost:11434", model="llama3.1")
+
+2024-11-09 13:55:15,222 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/Locked_Away.mp3
+2024-11-09 13:55:15,222 - INFO - Starting main process
+2024-11-09 13:55:15,222 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/Locked_Away.mp3
+2024-11-09 13:55:33,812 - INFO - Detected language: en
+2024-11-09 13:55:33,812 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/Locked_Away.mp3
+2024-11-09 13:55:34,831 - INFO - Audio conversion complete. Reducing noise...
+2024-11-09 13:55:44,564 - INFO - Noise reduction complete.
+2024-11-09 13:55:44,564 - INFO - Starting language detection for temp.wav
+2024-11-09 13:56:02,844 - INFO - Detected language: en
+2024-11-09 13:56:02,844 - INFO - Audio language: English
+2024-11-09 13:56:02,847 - INFO - Using AssemblyAI for transcription in English
+2024-11-09 13:56:21,088 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2024-11-09 13:56:21,250 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2024-11-09 13:56:21,381 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/a09f2ac5-a975-42d9-9371-0b94a16dabb6 "HTTP/1.1 200 OK"
+2024-11-09 13:56:24,510 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/a09f2ac5-a975-42d9-9371-0b94a16dabb6 "HTTP/1.1 200 OK"
+2024-11-09 13:56:27,820 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/a09f2ac5-a975-42d9-9371-0b94a16dabb6 "HTTP/1.1 200 OK"
+2024-11-09 13:56:27,936 - INFO - English transcription complete.
+2024-11-09 13:56:27,936 - INFO - Saving file to Output_data/Transcript/English\Locked_Away_eng.txt
+2024-11-09 13:56:27,937 - INFO - File saved successfully
+2024-11-09 13:56:27,937 - INFO - Sending transcript to LLM for response
+2024-11-09 13:56:27,938 - WARNING - D:\Transcript_summarizer\main2_updated.py:81: LangChainDeprecationWarning: The method `BaseLLM.__call__` was deprecated in langchain-core 0.1.7 and will be removed in 1.0. Use :meth:`~invoke` instead.
+  response = ollama(prompt)
+
+2024-11-09 13:56:35,302 - INFO - Received response from LLM
+2024-11-09 13:56:35,302 - INFO - Getting LLM response...
+2024-11-09 13:56:35,302 - INFO - Saving file to Output_data/Response/English\Locked_Away_eng.txt
+2024-11-09 13:56:35,303 - INFO - File saved successfully
+2024-11-09 13:56:35,303 - INFO - Main process complete
+2024-11-09 13:56:35,303 - INFO - Execution time: 187.214958 seconds
+2024-11-09 13:56:59,066 - INFO - Received response from LLM
+2024-11-09 13:56:59,066 - INFO - Getting LLM response...
+2024-11-09 13:56:59,066 - INFO - Saving file to Output_data/Response/English\Locked_Away_eng.txt
+2024-11-09 13:56:59,067 - INFO - File saved successfully
+2024-11-09 13:56:59,067 - INFO - Main process complete
+2024-11-09 13:56:59,067 - INFO - Execution time: 103.844928 seconds
+2024-11-09 13:58:02,386 - WARNING - D:\Transcript_summarizer\main2_updated.py:24: LangChainDeprecationWarning:
+
+The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+
+
+2024-11-09 13:58:02,400 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/recording.mp3
+2024-11-09 13:58:02,400 - INFO - Starting main process
+2024-11-09 13:58:02,400 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/recording.mp3
+2024-11-09 13:58:14,097 - WARNING - D:\Transcript_summarizer\main2_updated.py:24: LangChainDeprecationWarning: The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+  ollama = Ollama(base_url="http://localhost:11434", model="llama3.1")
+
+2024-11-09 13:58:14,109 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/recording.mp3
+2024-11-09 13:58:14,109 - INFO - Starting main process
+2024-11-09 13:58:14,109 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/recording.mp3
+2024-11-09 15:20:46,542 - WARNING - D:\Transcript_summarizer\main2_updated.py:24: LangChainDeprecationWarning: The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+  ollama = Ollama(base_url="http://localhost:11434", model="llama3.1")
+
+2024-11-09 15:20:46,554 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/recording.wav
+2024-11-09 15:20:46,554 - INFO - Starting main process
+2024-11-09 15:20:46,554 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/recording.wav
+2024-11-09 15:20:50,604 - WARNING - D:\Transcript_summarizer\main2_updated.py:24: LangChainDeprecationWarning:
+
+The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+
+
+2024-11-09 15:20:50,618 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/recording.wav
+2024-11-09 15:20:50,618 - INFO - Starting main process
+2024-11-09 15:20:50,618 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/recording.wav
+2024-11-09 16:01:45,531 - WARNING - D:\Transcript_summarizer\main2_updated.py:24: LangChainDeprecationWarning: The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+  ollama = Ollama(base_url="http://localhost:11434", model="llama3.1")
+
+2024-11-09 16:01:45,543 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/output.wav
+2024-11-09 16:01:45,543 - INFO - Starting main process
+2024-11-09 16:01:45,543 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/output.wav
+2024-11-09 16:01:56,369 - INFO - Detected language: en
+2024-11-09 16:01:56,370 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/output.wav
+2024-11-09 16:01:56,420 - INFO - Audio conversion complete. Reducing noise...
+2024-11-09 16:02:04,923 - INFO - Noise reduction complete.
+2024-11-09 16:02:04,923 - INFO - Starting language detection for temp.wav
+2024-11-09 16:02:15,303 - INFO - Detected language: en
+2024-11-09 16:02:15,303 - INFO - Audio language: English
+2024-11-09 16:02:15,304 - INFO - Using AssemblyAI for transcription in English
+2024-11-09 16:02:33,669 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2024-11-09 16:02:33,849 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2024-11-09 16:02:33,982 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3fca1548-60de-4392-96e9-2f63a232853e "HTTP/1.1 200 OK"
+2024-11-09 16:02:37,121 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3fca1548-60de-4392-96e9-2f63a232853e "HTTP/1.1 200 OK"
+2024-11-09 16:02:40,257 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3fca1548-60de-4392-96e9-2f63a232853e "HTTP/1.1 200 OK"
+2024-11-09 16:02:43,394 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3fca1548-60de-4392-96e9-2f63a232853e "HTTP/1.1 200 OK"
+2024-11-09 16:02:46,529 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3fca1548-60de-4392-96e9-2f63a232853e "HTTP/1.1 200 OK"
+2024-11-09 16:02:49,670 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3fca1548-60de-4392-96e9-2f63a232853e "HTTP/1.1 200 OK"
+2024-11-09 16:02:52,829 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3fca1548-60de-4392-96e9-2f63a232853e "HTTP/1.1 200 OK"
+2024-11-09 16:02:55,955 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3fca1548-60de-4392-96e9-2f63a232853e "HTTP/1.1 200 OK"
+2024-11-09 16:02:59,080 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3fca1548-60de-4392-96e9-2f63a232853e "HTTP/1.1 200 OK"
+2024-11-09 16:03:02,203 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3fca1548-60de-4392-96e9-2f63a232853e "HTTP/1.1 200 OK"
+2024-11-09 16:03:05,341 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3fca1548-60de-4392-96e9-2f63a232853e "HTTP/1.1 200 OK"
+2024-11-09 16:03:08,589 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/3fca1548-60de-4392-96e9-2f63a232853e "HTTP/1.1 200 OK"
+2024-11-09 16:03:08,691 - INFO - English transcription complete.
+2024-11-09 16:03:08,691 - INFO - Saving file to Output_data/Transcript/English\output_eng.txt
+2024-11-09 16:03:08,694 - INFO - File saved successfully
+2024-11-09 16:03:08,695 - INFO - Sending transcript to LLM for response
+2024-11-09 16:03:08,695 - WARNING - D:\Transcript_summarizer\main2_updated.py:81: LangChainDeprecationWarning: The method `BaseLLM.__call__` was deprecated in langchain-core 0.1.7 and will be removed in 1.0. Use :meth:`~invoke` instead.
+  response = ollama(prompt)
+
+2024-11-09 16:03:24,161 - INFO - Received response from LLM
+2024-11-09 16:03:24,161 - INFO - Getting LLM response...
+2024-11-09 16:03:24,161 - INFO - Saving file to Output_data/Response/English\output_eng.txt
+2024-11-09 16:03:24,163 - INFO - File saved successfully
+2024-11-09 16:03:24,164 - INFO - Main process complete
+2024-11-09 16:03:24,164 - INFO - Execution time: 98.621280 seconds
+2024-11-09 16:03:53,584 - WARNING - D:\Transcript_summarizer\main2_updated.py:24: LangChainDeprecationWarning:
+
+The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+
+
+2024-11-09 16:03:53,598 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/output.wav
+2024-11-09 16:03:53,598 - INFO - Starting main process
+2024-11-09 16:03:53,598 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/output.wav
+2024-11-09 16:04:31,232 - WARNING - D:\Transcript_summarizer\main2_updated.py:24: LangChainDeprecationWarning: The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+  ollama = Ollama(base_url="http://localhost:11434", model="llama3.1")
+
+2024-11-09 16:04:31,245 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/output.wav
+2024-11-09 16:04:31,245 - INFO - Starting main process
+2024-11-09 16:04:31,246 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/output.wav
+2024-11-10 00:41:30,924 - WARNING - D:\Transcript_summarizer\main2_updated.py:24: LangChainDeprecationWarning: The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+  ollama = Ollama(base_url="http://localhost:11434", model="llama3.1")
+
+2024-11-10 00:41:30,936 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/recording.wav
+2024-11-10 00:41:30,936 - INFO - Starting main process
+2024-11-10 00:41:30,937 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/recording.wav
+2024-11-10 04:35:46,829 - WARNING - D:\Transcript_summarizer\main2_updated.py:24: LangChainDeprecationWarning: The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+  ollama = Ollama(base_url="http://localhost:11434", model="llama3.1")
+
+2024-11-10 04:35:46,844 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/recording.wav
+2024-11-10 04:35:46,844 - INFO - Starting main process
+2024-11-10 04:35:46,844 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/recording.wav
+2024-11-10 04:35:46,844 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/recording.wav
+2024-11-10 04:35:46,844 - INFO - File size: 269389 bytes

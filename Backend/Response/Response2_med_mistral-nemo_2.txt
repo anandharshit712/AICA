@@ -1,0 +1,33 @@
+Rectal cancer, also known as colorectal cancer that occurs in the rectum (the last several inches of the large intestine), is a type of cancer that arises from the inner lining of the rectum. It's often linked to other lifestyle factors such as obesity, physical inactivity, and diets high in red or processed meats.
+
+Locally advanced rectal cancer refers to tumors that have grown into or through the wall of the rectum and/or have spread to nearby lymph nodes but haven't metastasized (spread) to distant organs. Here are some current practices and considerations when treating locally advanced rectal cancer:
+
+1. **Staging**: The first step in treating rectal cancer is determining the stage of the cancer, which helps guide treatment decisions. Staging involves imaging tests like CT scans, MRI, and PET scans to assess the size and extent of the tumor, as well as whether it has spread to lymph nodes or other organs.
+
+2. **Total Neoadjuvant Treatment (TNT)**: This approach involves giving chemotherapy and radiation therapy together before surgery. The goal is to shrink the tumor and make it easier to remove surgically, potentially allowing for sphincter-preserving surgery and improving chances of a cure. TNT can also help convert some initially unresectable tumors into resectable ones.
+
+   - **Short Course Radiation (SCRT) followed by Chemoradiotherapy (CRT)**: SCRT involves giving a lower total dose of radiation over a shorter period (usually 5 days), followed by CRT, which combines chemotherapy with radiotherapy. This approach is often used for tumors at high risk of local recurrence.
+
+   - **Long Course Radiation (LCRT) with Chemotherapy**: LCRT involves giving a higher total dose of radiation over a longer period (usually about 6 weeks) combined with chemotherapy.
+
+3. **Chemotherapy**:
+   - **Neoadjuvant (before surgery)**: Administering chemotherapy before surgery can help shrink the tumor and improve surgical outcomes.
+   - **Adjuvant (after surgery)**: Given after surgery to kill any remaining cancer cells and reduce the risk of recurrence.
+   - **FOLFOX/Fluorouracil-based regimens**: These are commonly used chemotherapies for rectal cancer, often combined with other drugs like oxaliplatin or leucovorin.
+
+4. **Surgery**:
+   - **Low anterior resection (LAR)**: Removal of the tumor and part of the rectum above it, while preserving the anal sphincter muscles.
+   - **Abdominal perineal resection (APR)**: Removal of the entire rectum and anus through an incision in the abdomen and perineum. A colostomy is usually created to allow waste to exit the body.
+   - **Transanal endoscopic microsurgery (TEM) or transanal minimally invasive surgery (TAMIS)**: These are less invasive, local excision procedures used for early-stage rectal cancers.
+
+5. **Organ Preservation**: In some cases, especially with complete response to neoadjuvant therapy, an active surveillance approach may be taken instead of immediate surgery. This allows for organ preservation and improved quality of life but requires close monitoring for recurrence.
+
+6. **Microsatellite Instability (MSI) Testing**: About 15% of rectal cancers are caused by a defect in the mismatch repair system, leading to MSI-high status. These tumors have been shown to respond exceptionally well to immune checkpoint inhibitors like pembrolizumab. Therefore, MSI testing is now standard for all patients with newly diagnosed metastatic colorectal cancer and should be considered for those with locally advanced disease.
+
+7. **Radiation Therapy Modality**: Intensity-modulated radiation therapy (IMRT) and volumetric modulated arc therapy (VMAT) are modern techniques used to deliver precise radiation doses to the tumor while minimizing exposure to nearby healthy tissues, reducing side effects like radiation proctitis.
+
+8. **Multidisciplinary Approach**: Rectal cancer treatment involves a team of specialists, including medical oncologists, radiation oncologists, surgeons, pathologists, and others. Regular tumor board discussions are crucial for reviewing each patient's case and determining the best course of treatment.
+
+9. **Clinical Trials**: Whenever possible, enrolling patients in clinical trials can provide access to novel therapies and help advance rectal cancer treatment.
+
+In summary, treating locally advanced rectal cancer involves a multimodal approach tailored to each patient's individual situation. Careful staging, consideration of various treatment modalities, and regular multidisciplinary review are all critical components of successful management.

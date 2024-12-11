@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Audio App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Login Page (Page 1) -->
+    <div id="loginPage">
+        <div class="login-container">
+            <h2>Welcome Back</h2>
+            <form id="loginForm">
+                <label id="text" for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label id="text" for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Audio Page (Page 2) -->
+    <div id="audioPage" class="hidden">
+        <div class="audio-container">
+            <h2>Audio Input & Chat</h2>
+
+            <!-- Audio Input Section -->
+            <div class="audio-section">
+                <button id="startRecording">Start Recording</button>
+                <button id="stopRecording" class="hidden">Stop Recording</button>
+                <input type="file" id="audioUpload" accept="audio/*">
+                <button id="uploadAudio">Upload Audio</button> <!-- Upload button added -->
+                <audio id="audioPlayer" controls>
+                    <source id="audioSource" src="" type="audio/wav">
+                </audio>
+            </div>
+
+            <!-- Audio Summary Section -->
+            <div class="summary-section">
+                <h3>Audio Summary</h3>
+                <textarea id="audioSummary" placeholder="Summary will appear here..." readonly></textarea>
+            </div>
+
+            <!-- Chat Section -->
+            <div class="chat-section">
+                <h3>Chat History</h3>
+                <div id="chatHistory">
+                    <!-- Previous chats will appear here -->
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="chatMessage" placeholder="Type your message...">
+                    <button id="sendMessage">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

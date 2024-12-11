@@ -1,0 +1,287 @@
+2024-12-10 06:52:28 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/Thalaseemia.mp3
+2024-12-10 06:52:28 - INFO - Starting main process
+2024-12-10 06:52:28 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/Thalaseemia.mp3
+2024-12-10 06:52:49 - INFO - Detected language: en
+2024-12-10 06:52:49 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/Thalaseemia.mp3
+2024-12-10 06:53:42 - INFO - Audio conversion complete. Reducing noise...
+2024-12-10 06:55:43 - INFO - Noise reduction complete.
+2024-12-10 06:55:43 - INFO - Starting language detection for temp.wav
+2024-12-10 06:55:56 - INFO - Detected language: en
+2024-12-10 06:55:56 - INFO - Audio language: English
+2024-12-10 06:59:02 - INFO - English transcription complete.
+2024-12-10 06:59:02 - INFO - Saving file to Output_data/Transcript/English\Thalaseemia_eng.txt
+2024-12-10 06:59:02 - INFO - File saved successfully
+2024-12-10 06:59:02 - INFO - Sending transcript to LLM for response
+2024-12-10 06:59:02 - ERROR - Error in LLM processing: 2 validation errors for GenerateRequest
+format.literal['json']
+  Input should be 'json' [type=literal_error, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+format.dict[str,any]
+  Input should be a valid dictionary [type=dict_type, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/dict_type
+2024-12-10 06:59:02 - ERROR - Unexpected error in main process: 2 validation errors for GenerateRequest
+format.literal['json']
+  Input should be 'json' [type=literal_error, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+format.dict[str,any]
+  Input should be a valid dictionary [type=dict_type, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/dict_type
+2024-12-10 06:59:02 - ERROR - Fatal error in script execution: 2 validation errors for GenerateRequest
+format.literal['json']
+  Input should be 'json' [type=literal_error, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+format.dict[str,any]
+  Input should be a valid dictionary [type=dict_type, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/dict_type
+2024-12-10 09:43:38 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/Rectal_Cancer.mp3
+2024-12-10 09:43:38 - INFO - Starting main process
+2024-12-10 09:43:38 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/Rectal_Cancer.mp3
+2024-12-10 09:43:57 - INFO - Detected language: en
+2024-12-10 09:43:57 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/Rectal_Cancer.mp3
+2024-12-10 09:44:08 - INFO - Audio conversion complete. Reducing noise...
+2024-12-10 09:45:06 - INFO - Noise reduction complete.
+2024-12-10 09:45:06 - INFO - Starting language detection for temp.wav
+2024-12-10 09:45:19 - INFO - Detected language: en
+2024-12-10 09:45:19 - INFO - Audio language: English
+2024-12-10 09:47:00 - INFO - English transcription complete.
+2024-12-10 09:47:00 - INFO - Saving file to Output_data/Transcript/English\Rectal_Cancer_eng.txt
+2024-12-10 09:47:00 - INFO - File saved successfully
+2024-12-10 09:47:00 - INFO - Sending transcript to LLM for response
+2024-12-10 09:48:26 - INFO - Received response from LLM
+2024-12-10 09:48:26 - INFO - Getting LLM response...
+2024-12-10 09:48:26 - INFO - Saving file to Output_data/Response/English\Rectal_Cancer_eng.txt
+2024-12-10 09:48:26 - INFO - File saved successfully
+2024-12-10 09:48:26 - INFO - Main process complete
+2024-12-10 09:48:26 - INFO - Execution time: 288.200566 seconds
+2024-12-10 09:57:10 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/CallRecording2.mp3
+2024-12-10 09:57:10 - INFO - Starting main process
+2024-12-10 09:57:10 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/CallRecording2.mp3
+2024-12-10 09:57:29 - INFO - Detected language: hi
+2024-12-10 09:57:29 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/CallRecording2.mp3
+2024-12-10 09:57:36 - INFO - Audio conversion complete. Reducing noise...
+2024-12-10 09:58:57 - INFO - Noise reduction complete.
+2024-12-10 09:58:57 - INFO - Starting language detection for temp.wav
+2024-12-10 09:59:13 - INFO - Detected language: hi
+2024-12-10 09:59:13 - INFO - Audio language: Hindi
+2024-12-10 09:59:13 - INFO - Using Whisper for non-English transcription
+2024-12-10 09:59:13 - INFO - Creating transcript using Whisper for temp.wav in language hi
+2024-12-10 10:38:17 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 10:38:17 - INFO - Starting main process
+2024-12-10 10:38:17 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 10:38:31 - INFO - Detected language: hi
+2024-12-10 10:38:31 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 10:38:31 - INFO - Audio conversion complete. Reducing noise...
+2024-12-10 10:38:42 - INFO - Noise reduction complete.
+2024-12-10 10:38:42 - INFO - Starting language detection for temp.wav
+2024-12-10 10:38:55 - INFO - Detected language: hi
+2024-12-10 10:38:55 - INFO - Audio language: Hindi
+2024-12-10 10:38:55 - INFO - Using Whisper for non-English transcription
+2024-12-10 10:38:55 - INFO - Creating transcript using Whisper for temp.wav in language hi
+2024-12-10 10:49:54 - INFO - Transcript creation complete.
+2024-12-10 10:49:54 - INFO - Non-English transcription complete.
+2024-12-10 10:49:54 - INFO - Saving file to Output_data/Transcript/Original_language\CallRecording3_ori.txt
+2024-12-10 10:49:54 - INFO - File saved successfully
+2024-12-10 10:49:54 - INFO - Translating file Output_data/Transcript/Original_language\CallRecording3_ori.txt to en
+2024-12-10 10:49:54 - ERROR - Error in translating file Output_data/Transcript/Original_language\CallRecording3_ori.txt to en: HTTP Error 404: NOT FOUND
+2024-12-10 10:49:54 - ERROR - Unexpected error in main process: HTTP Error 404: NOT FOUND
+2024-12-10 10:49:54 - ERROR - Fatal error in script execution: HTTP Error 404: NOT FOUND
+2024-12-10 11:12:13 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 11:12:13 - INFO - Starting main process
+2024-12-10 11:12:13 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 11:12:26 - INFO - Detected language: hi
+2024-12-10 11:12:26 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 11:12:27 - INFO - Audio conversion complete. Reducing noise...
+2024-12-10 11:12:37 - INFO - Noise reduction complete.
+2024-12-10 11:12:37 - INFO - Starting language detection for temp.wav
+2024-12-10 11:12:49 - INFO - Detected language: hi
+2024-12-10 11:12:49 - INFO - Audio language: Hindi
+2024-12-10 11:12:49 - INFO - Using Whisper for non-English transcription
+2024-12-10 11:12:49 - INFO - Creating transcript using Whisper for temp.wav in language hi
+2024-12-10 11:23:45 - INFO - Transcript creation complete.
+2024-12-10 11:23:45 - INFO - Non-English transcription complete.
+2024-12-10 11:23:45 - INFO - Saving file to Output_data/Transcript/Original_language\CallRecording3_ori.txt
+2024-12-10 11:23:45 - INFO - File saved successfully
+2024-12-10 11:23:45 - INFO - Translating file Output_data/Transcript/Original_language\CallRecording3_ori.txt to en
+2024-12-10 11:23:45 - ERROR - Error in translating file Output_data/Transcript/Original_language\CallRecording3_ori.txt to en: HTTP Error 404: NOT FOUND
+2024-12-10 11:23:45 - ERROR - Unexpected error in main process: HTTP Error 404: NOT FOUND
+2024-12-10 11:23:45 - ERROR - Fatal error in script execution: HTTP Error 404: NOT FOUND
+2024-12-10 12:50:14 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 12:50:14 - INFO - Starting main process
+2024-12-10 12:50:14 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 12:50:31 - INFO - Detected language: hi
+2024-12-10 12:50:31 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 12:50:32 - INFO - Audio conversion complete. Reducing noise...
+2024-12-10 12:50:42 - INFO - Noise reduction complete.
+2024-12-10 12:50:42 - INFO - Starting language detection for temp.wav
+2024-12-10 12:51:06 - INFO - Detected language: hi
+2024-12-10 12:51:06 - INFO - Audio language: Hindi
+2024-12-10 12:51:06 - INFO - Using Whisper for non-English transcription
+2024-12-10 12:51:06 - INFO - Creating transcript using Whisper for temp.wav in language hi
+2024-12-10 13:04:42 - INFO - Transcript creation complete.
+2024-12-10 13:04:42 - INFO - Non-English transcription complete.
+2024-12-10 13:04:42 - INFO - Saving file to Output_data/Transcript/Original_language\CallRecording3_ori.txt
+2024-12-10 13:04:42 - INFO - File saved successfully
+2024-12-10 13:04:42 - INFO - Translating file Output_data/Transcript/Original_language\CallRecording3_ori.txt to en
+2024-12-10 13:04:42 - ERROR - Error in translating file Output_data/Transcript/Original_language\CallRecording3_ori.txt to en: HTTP Error 404: NOT FOUND
+2024-12-10 13:04:42 - ERROR - Unexpected error in main process: HTTP Error 404: NOT FOUND
+2024-12-10 13:04:42 - ERROR - Fatal error in script execution: HTTP Error 404: NOT FOUND
+2024-12-10 13:06:33 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/recording_1733853397083.wav
+2024-12-10 13:06:33 - INFO - Starting main process
+2024-12-10 13:06:33 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/recording_1733853397083.wav
+2024-12-10 13:06:47 - INFO - Detected language: en
+2024-12-10 13:06:47 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/recording_1733853397083.wav
+2024-12-10 13:06:47 - INFO - Reducing Noise...
+2024-12-10 13:06:50 - INFO - Noise reduction complete.
+2024-12-10 13:06:50 - INFO - Starting language detection for temp.wav
+2024-12-10 13:07:04 - INFO - Detected language: en
+2024-12-10 13:07:04 - INFO - Audio language: English
+2024-12-10 13:07:09 - INFO - English transcription complete.
+2024-12-10 13:07:09 - INFO - Saving file to Output_data/Transcript/English\recording_1733853397083_eng.txt
+2024-12-10 13:07:09 - INFO - File saved successfully
+2024-12-10 13:07:09 - INFO - Sending transcript to LLM for response
+2024-12-10 13:08:00 - INFO - Received response from LLM
+2024-12-10 13:08:00 - INFO - Getting LLM response...
+2024-12-10 13:08:00 - INFO - Saving file to Output_data/Response/English\recording_1733853397083_eng.txt
+2024-12-10 13:08:00 - INFO - File saved successfully
+2024-12-10 13:08:00 - INFO - Main process complete
+2024-12-10 13:08:00 - INFO - Execution time: 86.991143 seconds
+2024-12-10 13:09:48 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/recording_1733853413097.wav
+2024-12-10 13:09:48 - INFO - Starting main process
+2024-12-10 13:09:48 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/recording_1733853413097.wav
+2024-12-10 13:10:02 - INFO - Detected language: en
+2024-12-10 13:10:02 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/recording_1733853413097.wav
+2024-12-10 13:10:02 - INFO - Reducing Noise...
+2024-12-10 13:10:04 - INFO - Noise reduction complete.
+2024-12-10 13:10:04 - INFO - Starting language detection for temp.wav
+2024-12-10 13:10:17 - INFO - Detected language: en
+2024-12-10 13:10:17 - INFO - Audio language: English
+2024-12-10 13:10:22 - INFO - English transcription complete.
+2024-12-10 13:10:22 - INFO - Saving file to Output_data/Transcript/English\recording_1733853413097_eng.txt
+2024-12-10 13:10:22 - INFO - File saved successfully
+2024-12-10 13:10:22 - INFO - Sending transcript to LLM for response
+2024-12-10 13:10:47 - INFO - Received response from LLM
+2024-12-10 13:10:47 - INFO - Getting LLM response...
+2024-12-10 13:10:47 - INFO - Saving file to Output_data/Response/English\recording_1733853413097_eng.txt
+2024-12-10 13:10:47 - INFO - File saved successfully
+2024-12-10 13:10:47 - INFO - Main process complete
+2024-12-10 13:10:47 - INFO - Execution time: 59.221051 seconds
+2024-12-10 13:17:47 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/recording_1733854556077.wav
+2024-12-10 13:17:47 - INFO - Starting main process
+2024-12-10 13:17:47 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/recording_1733854556077.wav
+2024-12-10 13:18:01 - INFO - Detected language: hi
+2024-12-10 13:18:01 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/recording_1733854556077.wav
+2024-12-10 13:18:01 - INFO - Reducing Noise...
+2024-12-10 13:18:04 - INFO - Noise reduction complete.
+2024-12-10 13:18:04 - INFO - Starting language detection for temp.wav
+2024-12-10 13:18:17 - INFO - Detected language: en
+2024-12-10 13:18:17 - INFO - Audio language: English
+2024-12-10 13:18:22 - INFO - English transcription complete.
+2024-12-10 13:18:22 - INFO - Saving file to Output_data/Transcript/Original_language\recording_1733854556077_ori.txt
+2024-12-10 13:18:22 - INFO - File saved successfully
+2024-12-10 13:18:22 - INFO - Translating file Output_data/Transcript/Original_language\recording_1733854556077_ori.txt to en
+2024-12-10 13:55:38 - ERROR - Error in translating file Output_data/Transcript/Original_language\recording_1733854556077_ori.txt to en: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-12-10 13:55:38 - ERROR - Unexpected error in main process: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-12-10 13:55:38 - ERROR - Fatal error in script execution: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-12-10 13:57:15 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/recording_1733854610190.wav
+2024-12-10 13:57:15 - INFO - Starting main process
+2024-12-10 13:57:15 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/recording_1733854610190.wav
+2024-12-10 13:57:31 - INFO - Detected language: hi
+2024-12-10 13:57:31 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/recording_1733854610190.wav
+2024-12-10 13:57:31 - INFO - Reducing Noise...
+2024-12-10 13:57:34 - INFO - Noise reduction complete.
+2024-12-10 13:57:34 - INFO - Starting language detection for temp.wav
+2024-12-10 13:57:47 - INFO - Detected language: en
+2024-12-10 13:57:47 - INFO - Audio language: English
+2024-12-10 13:57:53 - INFO - English transcription complete.
+2024-12-10 13:57:53 - INFO - Saving file to Output_data/Transcript/Original_language\recording_1733854610190_ori.txt
+2024-12-10 13:57:53 - INFO - File saved successfully
+2024-12-10 13:57:53 - INFO - Translating file Output_data/Transcript/Original_language\recording_1733854610190_ori.txt to en
+2024-12-10 13:57:54 - INFO - Translation complete.
+2024-12-10 13:57:54 - INFO - Saving file to Output_data/Transcript/English\recording_1733854610190_eng.txt
+2024-12-10 13:57:54 - INFO - File saved successfully
+2024-12-10 13:57:54 - INFO - Sending transcript to LLM for response
+2024-12-10 13:58:17 - INFO - Received response from LLM
+2024-12-10 13:58:17 - INFO - Getting LLM response...
+2024-12-10 13:58:17 - INFO - Saving file to Output_data/Response/English\recording_1733854610190_eng.txt
+2024-12-10 13:58:17 - INFO - File saved successfully
+2024-12-10 13:58:17 - INFO - Translating file Output_data/Response/English\recording_1733854610190_eng.txt to hi
+2024-12-10 13:58:17 - ERROR - Error in translating file Output_data/Response/English\recording_1733854610190_eng.txt to hi: HTTP Error 400: BAD REQUEST
+2024-12-10 13:58:17 - ERROR - Unexpected error in main process: HTTP Error 400: BAD REQUEST
+2024-12-10 13:58:17 - ERROR - Fatal error in script execution: HTTP Error 400: BAD REQUEST
+2024-12-10 14:07:07 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/recording_1733857530162.wav
+2024-12-10 14:07:07 - INFO - Starting main process
+2024-12-10 14:07:07 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/recording_1733857530162.wav
+2024-12-10 14:07:21 - INFO - Detected language: ms
+2024-12-10 14:07:21 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/recording_1733857530162.wav
+2024-12-10 14:07:21 - INFO - Reducing Noise...
+2024-12-10 14:07:24 - INFO - Noise reduction complete.
+2024-12-10 14:07:24 - INFO - Starting language detection for temp.wav
+2024-12-10 14:07:36 - INFO - Detected language: en
+2024-12-10 14:07:36 - INFO - Audio language: English
+2024-12-10 14:07:41 - INFO - English transcription complete.
+2024-12-10 14:07:41 - INFO - Saving file to Output_data/Transcript/Original_language\recording_1733857530162_ori.txt
+2024-12-10 14:07:41 - INFO - File saved successfully
+2024-12-10 14:07:41 - INFO - Translating file Output_data/Transcript/Original_language\recording_1733857530162_ori.txt to en
+2024-12-10 14:07:41 - ERROR - Error in translating file Output_data/Transcript/Original_language\recording_1733857530162_ori.txt to en: HTTP Error 404: NOT FOUND
+2024-12-10 14:07:41 - ERROR - Unexpected error in main process: HTTP Error 404: NOT FOUND
+2024-12-10 14:07:41 - ERROR - Fatal error in script execution: HTTP Error 404: NOT FOUND
+2024-12-10 14:10:54 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/recording_1733857754108.wav
+2024-12-10 14:10:54 - INFO - Starting main process
+2024-12-10 14:10:54 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/recording_1733857754108.wav
+2024-12-10 14:11:08 - INFO - Detected language: en
+2024-12-10 14:11:08 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/recording_1733857754108.wav
+2024-12-10 14:11:08 - INFO - Reducing Noise...
+2024-12-10 14:11:11 - INFO - Noise reduction complete.
+2024-12-10 14:11:11 - INFO - Starting language detection for temp.wav
+2024-12-10 14:11:23 - INFO - Detected language: en
+2024-12-10 14:11:23 - INFO - Audio language: English
+2024-12-10 14:11:28 - INFO - English transcription complete.
+2024-12-10 14:11:28 - INFO - Saving file to Output_data/Transcript/English\recording_1733857754108_eng.txt
+2024-12-10 14:11:28 - INFO - File saved successfully
+2024-12-10 14:11:28 - INFO - Sending transcript to LLM for response
+2024-12-10 14:11:46 - INFO - Received response from LLM
+2024-12-10 14:11:46 - INFO - Getting LLM response...
+2024-12-10 14:11:46 - INFO - Saving file to Output_data/Response/English\recording_1733857754108_eng.txt
+2024-12-10 14:11:46 - INFO - File saved successfully
+2024-12-10 14:11:46 - INFO - Main process complete
+2024-12-10 14:11:46 - INFO - Execution time: 51.240750 seconds
+2024-12-10 14:13:27 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/recording_1733857759429.wav
+2024-12-10 14:13:27 - INFO - Starting main process
+2024-12-10 14:13:27 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/recording_1733857759429.wav
+2024-12-10 14:13:41 - INFO - Detected language: en
+2024-12-10 14:13:41 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/recording_1733857759429.wav
+2024-12-10 14:13:41 - INFO - Reducing Noise...
+2024-12-10 14:13:44 - INFO - Noise reduction complete.
+2024-12-10 14:13:44 - INFO - Starting language detection for temp.wav
+2024-12-10 14:13:57 - INFO - Detected language: en
+2024-12-10 14:13:57 - INFO - Audio language: English
+2024-12-10 14:14:02 - INFO - English transcription complete.
+2024-12-10 14:14:02 - INFO - Saving file to Output_data/Transcript/English\recording_1733857759429_eng.txt
+2024-12-10 14:14:02 - INFO - File saved successfully
+2024-12-10 14:14:02 - INFO - Sending transcript to LLM for response
+2024-12-10 14:14:21 - INFO - Received response from LLM
+2024-12-10 14:14:21 - INFO - Getting LLM response...
+2024-12-10 14:14:21 - INFO - Saving file to Output_data/Response/English\recording_1733857759429_eng.txt
+2024-12-10 14:14:21 - INFO - File saved successfully
+2024-12-10 14:14:21 - INFO - Main process complete
+2024-12-10 14:14:21 - INFO - Execution time: 53.852155 seconds
+2024-12-10 14:15:55 - INFO - Script started with file path: D:/webServer/Beamhash/api/upload/recording_1733857823129.wav
+2024-12-10 14:15:55 - INFO - Starting main process
+2024-12-10 14:15:55 - INFO - Starting language detection for D:/webServer/Beamhash/api/upload/recording_1733857823129.wav
+2024-12-10 14:16:27 - INFO - Detected language: fr
+2024-12-10 14:16:27 - INFO - Starting audio processing for D:/webServer/Beamhash/api/upload/recording_1733857823129.wav
+2024-12-10 14:16:27 - INFO - Reducing Noise...
+2024-12-10 14:16:29 - INFO - Noise reduction complete.
+2024-12-10 14:16:29 - INFO - Starting language detection for temp.wav
+2024-12-10 14:17:01 - INFO - Detected language: fr
+2024-12-10 14:17:01 - INFO - Audio language: French
+2024-12-10 14:17:01 - INFO - Using Whisper for non-English transcription
+2024-12-10 14:17:01 - INFO - Creating transcript using Whisper for temp.wav in language fr
+2024-12-10 14:17:43 - INFO - Transcript creation complete.
+2024-12-10 14:17:43 - INFO - Non-English transcription complete.
+2024-12-10 14:17:43 - INFO - Saving file to Output_data/Transcript/Original_language\recording_1733857823129_ori.txt
+2024-12-10 14:17:43 - INFO - File saved successfully
+2024-12-10 14:17:43 - INFO - Translating file Output_data/Transcript/Original_language\recording_1733857823129_ori.txt to en
+2024-12-10 14:17:43 - ERROR - Error in translating file Output_data/Transcript/Original_language\recording_1733857823129_ori.txt to en: HTTP Error 404: NOT FOUND
+2024-12-10 14:17:43 - ERROR - Unexpected error in main process: HTTP Error 404: NOT FOUND
+2024-12-10 14:17:43 - ERROR - Fatal error in script execution: HTTP Error 404: NOT FOUND

@@ -1,0 +1,38 @@
+2024-12-10 09:41:34 - Detected file: D:/webServer/Beamhash/api/upload/Rectal_Cancer.mp3
+2024-12-10 09:41:34 - Starting audio process for: D:/webServer/Beamhash/api/upload/Rectal_Cancer.mp3
+2024-12-10 09:48:29 - Processed file: D:/webServer/Beamhash/api/upload/Rectal_Cancer.mp3
+2024-12-10 09:55:09 - Detected file: D:/webServer/Beamhash/api/upload/CallRecording2.mp3
+2024-12-10 09:55:09 - Starting audio process for: D:/webServer/Beamhash/api/upload/CallRecording2.mp3
+2024-12-10 10:36:33 - Detected file: D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 10:36:33 - Starting audio process for: D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 10:49:57 - Processed file: D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 11:10:27 - Detected file: D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 11:10:27 - Starting audio process for: D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 11:23:48 - Processed file: D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 12:48:31 - Detected file: D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 12:48:31 - Starting audio process for: D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 13:04:45 - Processed file: D:/webServer/Beamhash/api/upload/CallRecording3.mp3
+2024-12-10 13:04:45 - Detected file: D:/webServer/Beamhash/api/upload/recording_1733853397083.wav
+2024-12-10 13:04:45 - Starting audio process for: D:/webServer/Beamhash/api/upload/recording_1733853397083.wav
+2024-12-10 13:08:03 - Processed file: D:/webServer/Beamhash/api/upload/recording_1733853397083.wav
+2024-12-10 13:08:03 - Detected file: D:/webServer/Beamhash/api/upload/recording_1733853413097.wav
+2024-12-10 13:08:03 - Starting audio process for: D:/webServer/Beamhash/api/upload/recording_1733853413097.wav
+2024-12-10 13:10:50 - Processed file: D:/webServer/Beamhash/api/upload/recording_1733853413097.wav
+2024-12-10 13:16:03 - Detected file: D:/webServer/Beamhash/api/upload/recording_1733854556077.wav
+2024-12-10 13:16:03 - Starting audio process for: D:/webServer/Beamhash/api/upload/recording_1733854556077.wav
+2024-12-10 13:55:41 - Processed file: D:/webServer/Beamhash/api/upload/recording_1733854556077.wav
+2024-12-10 13:55:41 - Detected file: D:/webServer/Beamhash/api/upload/recording_1733854610190.wav
+2024-12-10 13:55:41 - Starting audio process for: D:/webServer/Beamhash/api/upload/recording_1733854610190.wav
+2024-12-10 13:58:19 - Processed file: D:/webServer/Beamhash/api/upload/recording_1733854610190.wav
+2024-12-10 14:05:31 - Detected file: D:/webServer/Beamhash/api/upload/recording_1733857530162.wav
+2024-12-10 14:05:31 - Starting audio process for: D:/webServer/Beamhash/api/upload/recording_1733857530162.wav
+2024-12-10 14:07:44 - Processed file: D:/webServer/Beamhash/api/upload/recording_1733857530162.wav
+2024-12-10 14:09:14 - Detected file: D:/webServer/Beamhash/api/upload/recording_1733857754108.wav
+2024-12-10 14:09:14 - Starting audio process for: D:/webServer/Beamhash/api/upload/recording_1733857754108.wav
+2024-12-10 14:11:49 - Processed file: D:/webServer/Beamhash/api/upload/recording_1733857754108.wav
+2024-12-10 14:11:49 - Detected file: D:/webServer/Beamhash/api/upload/recording_1733857759429.wav
+2024-12-10 14:11:49 - Starting audio process for: D:/webServer/Beamhash/api/upload/recording_1733857759429.wav
+2024-12-10 14:14:23 - Processed file: D:/webServer/Beamhash/api/upload/recording_1733857759429.wav
+2024-12-10 14:14:23 - Detected file: D:/webServer/Beamhash/api/upload/recording_1733857823129.wav
+2024-12-10 14:14:23 - Starting audio process for: D:/webServer/Beamhash/api/upload/recording_1733857823129.wav
+2024-12-10 14:17:46 - Processed file: D:/webServer/Beamhash/api/upload/recording_1733857823129.wav

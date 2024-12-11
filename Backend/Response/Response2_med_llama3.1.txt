@@ -1,0 +1,15 @@
+The conversation between three medical professionals, Dr. Deborah Schrag and two other doctors (Christian Jetba and another speaker), discussing the current available options for treating locally advanced rectal cancer.
+
+Here's a brief summary:
+
+* The topic is the treatment of locally advanced rectal cancer using various modalities such as chemotherapy, radiation therapy, and surgery.
+* The speakers discuss the results of a phase 2 clinical trial (the OAR study) which compared the effectiveness of different treatment combinations in this patient population.
+* They highlight that while there are controversies about the interpretation of these results, many patients with locally advanced rectal cancer can be effectively treated using a combination of chemotherapy and radiation therapy (total neoadjuvant treatment).
+* The importance of testing for MSI high status is stressed, as this genetic marker is associated with a great response to single-agent immune checkpoint inhibitors in some patients.
+* The speakers conclude by emphasizing the need for careful patient selection based on individual risk factors and molecular characteristics.
+
+Some key points from the conversation:
+
+* Total neoadjuvant treatment (TNT) is still a viable option for many locally advanced rectal cancer patients.
+* Selecting the right patient for short-course versus long-course radiation therapy based on their risk of recurrence is crucial.
+* Testing for MSI high status can help identify patients who may respond well to single-agent immune checkpoint inhibitors.

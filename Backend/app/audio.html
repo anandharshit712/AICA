@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Recorder & Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="audio-container">
+        <h2>Audio Recorder & Chat</h2>
+        <div class="recorder">
+            <button id="startRecording">Start Recording</button>
+            <button id="stopRecording" disabled>Stop Recording</button>
+            <p>or</p>
+            <input type="file" id="audioFileInput" accept="audio/*">
+        </div>
+        <div id="audioPlayback"></div> <!-- Div to display recorded audio -->
+        <div class="chatbox">
+            <div id="chatLog"></div>
+            <input type="text" id="chatInput" placeholder="Ask a question...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

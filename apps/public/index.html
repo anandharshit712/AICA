@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Audio App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="C:\ffmpeg\ffmpeg-2024-07-10-git-1a86a7a48d-full_build\bin"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Login Page (Page 1) -->
+    <div id="loginPage">
+        <div class="login-container">
+            <h2>Welcome Back</h2>
+            <form id="loginForm" class="form-container">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <div class="password-container">
+                    <input type="password" id="password" name="password" required>
+                    <i class="fas fa-eye" id="togglePassword" onclick="togglePasswordVisibility('password')"></i> <!-- Eye icon -->
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="register.html">Register here</a></p>
+        </div>
+    </div>
+    
+    <!-- Audio Page (Page 2) -->
+    <div id="audioPage" class="hidden">
+        <div class="audio-container">
+            <h2>Audio Input & Chat</h2>
+
+            <!-- Audio Input Section -->
+            <div class="audio-section">
+                <button id="startRecording">Start Recording</button>
+                <button id="stopRecording" class="hidden">Stop Recording</button>
+                <input type="file" id="audioUpload" accept="audio/*">
+                <button id="uploadAudio">Get Summary</button> <!-- Upload button added -->
+                <audio id="audioPlayer" controls>
+                    <source id="audioSource" src="" type="audio/mp4">
+                </audio>
+            </div>
+
+            <!-- Audio Summary Section -->
+            <div class="summary-section">
+                <h3>Audio Summary</h3>
+                <textarea id="audioSummary" placeholder="Summary will appear here...." readonly></textarea>
+            </div>
+
+            <!-- Chat Section -->
+            <div class="chat-section">
+                <h3>Chat History</h3>
+                <div id="chatHistory">
+                    <!-- Previous chats will appear here -->
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="chatMessage" placeholder="Type your message...">
+                    <button id="sendMessage">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function togglePasswordVisibility(passwordId) {
+            var passwordField = document.getElementById(passwordId);
+            var icon = document.getElementById("togglePassword");
+
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+                icon.classList.remove("fa-eye");
+                icon.classList.add("fa-eye-slash");
+            } else {
+                passwordField.type = "password";
+                icon.classList.remove("fa-eye-slash");
+                icon.classList.add("fa-eye");
+            }
+        }
+      
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,10 @@
+torchaudio
+torch
+noisereduce
+librosa
+soundfile
+moviepy
+mimetype
+pydub
+assemblyai
+langchain-community

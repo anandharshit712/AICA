@@ -1,0 +1,17 @@
+Based on the conversation, here's a summary of their approach to treating locally advanced rectal cancer:
+
+1. **Treatment Modality**:
+   - They prefer long-course chemoradiation followed by surgery (consolidative) for most patients with locally advanced rectal cancer.
+   - In high-risk cases or where organ preservation is desired, they intensify treatment with full-dose fluorouracil and may consider active surveillance after a complete response.
+
+2. **Response Assessment**:
+   - They assess response around 8 weeks after chemotherapy completion (range: 4-12 weeks).
+   - They use MRI, digital exam, and endoscopy for response assessment.
+   - If there's a complete response in all modalities, they consider active surveillance.
+
+3. **Oprah Study Interpretation**:
+   - There are differing opinions on the significance of the Oprah study results (a randomized phase II trial) and whether the sequencing of treatment modalities matters.
+   - Some physicians still prefer starting with whichever modality can provide relief to the patient most quickly.
+
+4. **MSI High Status**:
+   - They emphasize testing for MSI high status, as these patients may respond well to single-agent immune checkpoint inhibitors, potentially decreasing the need for surgery and radiation.

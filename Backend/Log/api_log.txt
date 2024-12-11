@@ -1,0 +1,60 @@
+2024-11-10 05:04:00,433 - INFO - Monitoring directory: D:/webServer/Beamhash/api/Results
+2024-11-10 05:04:38,026 - INFO - New file found: D:/webServer/Beamhash/api/Results\response_main_Thalaseemia_eng.txt
+2024-11-10 05:04:38,282 - INFO - Failed to send file content
+2024-11-10 05:04:38,283 - INFO - sending file to webpage!!
+2024-11-10 05:09:40,520 - INFO - Monitoring directory: D:/webServer/Beamhash/api/Results
+2024-11-10 05:10:01,115 - INFO - New file found: D:/webServer/Beamhash/api/Results\response_main_Thalaseemia_eng.txt
+2024-11-10 05:10:01,116 - INFO - sending file to webpage!!
+2024-11-10 05:10:01,283 - INFO - Failed to send file content
+2024-11-10 05:11:48,405 - INFO - Monitoring directory: D:/webServer/Beamhash/api/Results
+2024-11-10 05:11:59,329 - INFO - New file found: D:/webServer/Beamhash/api/Results\response_main_Thalaseemia_eng.txt
+2024-11-10 05:11:59,329 - INFO - sending file to webpage!!
+2024-11-10 05:11:59,481 - INFO - Failed to send file content
+2024-11-10 05:28:59,777 - INFO - Monitoring directory: D:/webServer/Beamhash/api/Results
+2024-11-10 05:30:44,802 - INFO - New file found: D:/webServer/Beamhash/api/Results\response_main_Thalaseemia_eng.txt
+2024-11-10 05:30:44,802 - INFO - sending file to webpage!!
+2024-11-10 05:30:44,955 - INFO - Failed to send file content
+2024-11-10 05:31:05,345 - INFO - New file found: D:/webServer/Beamhash/api/Results\response_main_Thalaseemia_eng - Copy.txt
+2024-11-10 05:31:05,345 - INFO - sending file to webpage!!
+2024-11-10 05:37:17,003 - INFO - Monitoring directory: D:/webServer/Beamhash/api/Results
+2024-11-10 05:37:54,817 - INFO - New file found: D:/webServer/Beamhash/api/Results\response_main_Thalaseemia_eng.txt
+2024-11-10 05:37:54,818 - INFO - sending file to webpage!!
+2024-11-10 05:37:55,112 - INFO - Failed to send file content
+2024-11-10 06:47:14,926 - INFO - Monitoring directory: D:/webServer/Beamhash/api/Results
+2024-11-10 07:02:11,612 - INFO - Monitoring directory: D:/webServer/Beamhash/api/Results
+2024-11-10 07:02:32,443 - INFO - Monitoring directory: D:/webServer/Beamhash/api/Results
+2024-11-10 07:03:30,123 - INFO - New file found: D:/webServer/Beamhash/api/Results\response_main_Thalaseemia_eng.txt
+2024-11-10 07:03:30,123 - INFO - sending file to webpage!!
+2024-11-10 07:03:30,338 - INFO - Failed to send file content
+2024-11-10 07:03:56,787 - INFO - Monitoring directory: D:/webServer/Beamhash/api/Results
+2024-11-10 07:04:17,181 - INFO - New file found: D:/webServer/Beamhash/api/Results\response_main_Thalaseemia_eng.txt
+2024-11-10 07:04:17,181 - INFO - sending file to webpage!!
+2024-11-10 07:04:17,180 - INFO - New file found: D:/webServer/Beamhash/api/Results\response_main_Thalaseemia_eng.txt
+2024-11-10 07:04:17,181 - INFO - sending file to webpage!!
+2024-11-10 07:04:17,383 - INFO - Failed to send file content
+2024-11-10 07:04:17,384 - INFO - Failed to send file content
+2024-11-10 07:06:40,767 - INFO - New file found: D:/webServer/Beamhash/api/Results\response_main_Thalaseemia_eng.txt
+2024-11-10 07:06:40,767 - INFO - New file found: D:/webServer/Beamhash/api/Results\response_main_Thalaseemia_eng.txt
+2024-11-10 07:06:40,767 - INFO - sending file to webpage!!
+2024-11-10 07:06:40,767 - INFO - sending file to webpage!!
+2024-11-10 07:06:40,902 - INFO - Failed to send file content
+2024-11-10 07:06:40,913 - INFO - Failed to send file content
+2024-11-10 07:07:56,086 - INFO - New file found: D:/webServer/Beamhash/api/Results\response_main_Thalaseemia_eng.txt
+2024-11-10 07:07:56,086 - INFO - sending file to webpage!!
+2024-11-10 07:07:56,086 - INFO - sending file to webpage!!
+2024-11-10 07:07:56,233 - INFO - Failed to send file content
+2024-11-10 07:07:56,258 - INFO - Failed to send file content
+2024-11-10 07:09:46,470 - INFO - Monitoring directory: D:/webServer/Beamhash/api/Results
+2024-11-10 07:10:38,080 - INFO - New file found: D:/webServer/Beamhash/api/Results\response_main_Thalaseemia_eng.txt
+2024-11-10 07:10:38,080 - INFO - New file found: D:/webServer/Beamhash/api/Results\response_main_Thalaseemia_eng.txt
+2024-11-10 07:10:38,081 - INFO - sending file to webpage!!
+2024-11-10 07:10:38,260 - INFO - Failed to send file content
+2024-11-10 07:10:38,273 - INFO - Failed to send file content
+2024-11-10 07:15:57,803 - INFO - New file found: D:/webServer/Beamhash/api/Results\response_main_Thalaseemia_eng.txt
+2024-11-10 07:15:57,803 - INFO - sending file to webpage!!
+2024-11-10 07:15:57,802 - INFO - New file found: D:/webServer/Beamhash/api/Results\response_main_Thalaseemia_eng.txt
+2024-11-10 07:15:57,802 - INFO - sending file to webpage!!
+2024-11-10 07:15:58,044 - INFO - Failed to send file content
+2024-11-10 07:15:58,062 - INFO - Failed to send file content
+2024-12-03 16:52:57,344 - INFO - Monitoring directory: D:/webServer/Beamhash/api/Results
+2024-12-03 17:08:33,181 - INFO - Monitoring directory: D:/webServer/Beamhash/api/Results

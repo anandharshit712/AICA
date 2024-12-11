@@ -1,0 +1,25 @@
+Based on the conversation, here's a summary of their current practices and considerations when treating locally advanced rectal cancer:
+
+1. **Single Modality vs Combination:**
+   - They prefer a single local treatment modality if possible (chemo, radiation, or surgery) to preserve function better.
+   - Combining chemo/radiation with surgery is generally worse than using either one alone.
+
+2. **Oprah Study:**
+   - They follow the Oprah study's approach: long-course chemo-radiation followed by consolidative systemic therapy for intermediate-risk tumors.
+   - For high-risk tumors, they consider organ preservation and intensify treatment with full fluorouracil.
+
+3. **Response Assessment:**
+   - They perform response assessment around 8 weeks after chemotherapy completion (range of 4-12 weeks).
+   - They use MRI, digital exam, and endoscopy to assess responses.
+   - If there's a complete response on all modalities, they proceed with active surveillance.
+
+4. **Near Complete Response:**
+   - There's concern about poor disease-free survival outcomes for near complete responders from recent Oprah study updates.
+   - They still consider active surveillance if patients have a complete response at the second assessment but emphasize informed consent regarding potential risks.
+
+5. **MSI High Status:**
+   - They stress the importance of testing for MSI high status to identify patients who may benefit from single-agent immune checkpoint inhibitors.
+
+6. **Current Trends:**
+   - Dr. Schrag mentions that while Oprah study interpretation is controversial, some physicians still prioritize starting treatment quickly with whichever modality can provide the earliest relief.
+   - Dr. Schrag also highlights new data validating the high response rate of immune checkpoint inhibitors in MSI-high rectal cancer patients.

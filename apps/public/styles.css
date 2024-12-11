@@ -1,0 +1,244 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg"); /* Background image restored */
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Shared Form Styling */
+.form-container {
+    color: #ddd;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 15px; /* Add spacing between elements */
+    align-items: stretch; /* Ensures consistent alignment for all elements */
+}
+
+.form-container label {
+    color: #ddd;
+    font-size: 18px;
+    display: block; /* Ensures labels appear on new lines */
+    margin-bottom: 5px; /* Add space between label and input */
+}
+
+.form-container input {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #fa92ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400; /* Ensures full alignment with other elements */
+}
+
+.form-container button {
+    padding: 10px;
+    background-color: #fa92ff;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    width: 100%; /* Ensures alignment with input fields */
+}
+
+.form-container button:hover {
+    background-color: #ffffff;
+    color: #fa92ff;
+    transform: scale(1.05); /* Slight scaling effect */
+}
+
+/* Login Page Container Styling */
+.login-container {
+    width: 90%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Password Input Styling */
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-container input {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #fa92ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.password-container i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: #9a999a;
+    font-size: 20px;
+}
+
+.password-container i:hover {
+    color: #ffffff;
+}
+
+
+/* Audio Page Styling */
+.audio-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.audio-section button {
+    padding: 10px;
+    background-color: #fa92ff;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.audio-section button:hover {
+    background-color: #ffffff;
+    color: #fa92ff;
+    transform: scale(1.05);
+}
+
+audio {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 577px;
+    height: 100px;
+    border: 2px solid #fa92ff;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    resize: none;
+}
+
+.chat-section {
+    border-top: 2px solid #fa92ff;
+    padding-top: 20px;
+}
+
+#chatHistory {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    height: 150px;
+    overflow-y: auto;
+    border: 2px solid #fa92ff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.chat-input {
+    display: flex;
+    gap: 10px;
+}
+
+.chat-input input {
+    background-color: #222;
+    color: whitesmoke;
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #fa92ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.chat-input button {
+    padding: 10px;
+    background-color: #fa92ff;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.chat-input button:hover {
+    background-color: #ffffff;
+    color: #fa92ff;
+    transform: scale(1.05);
+}
+
+/* Chat Bubble Styling */
+.chat-bubble {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 80%;
+    color: #fff;
+}
+
+.user-message {
+    background-color: #6a11cb;
+    align-self: flex-start;
+}
+
+.system-message {
+    background-color: #2575fc;
+    align-self: flex-end;
+}
