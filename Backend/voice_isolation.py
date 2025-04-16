@@ -11,8 +11,8 @@ def voice_isolation(audio):
     mask = magnitude > noise_threshold[:, np.newaxis]
     isolated_stft = stft * mask
     isolated_audio = librosa.istft(isolated_stft)
-    sf.write('temp.wav', isolated_audio, sr)
+    sf.write('temp_isolated.wav', isolated_audio, sr)
     print("Isolated Audio Saved as temp.wav")
 # Load audio file
-# audio_path = 'Test audio/CallRecording3.mp3'
-# voice_isolation(audio_path)
+audio_path = "temp_reduced.wav"
+voice_isolation(audio_path)

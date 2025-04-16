@@ -36,5 +36,5 @@ def convert(path):
 
 # if __name__ == '__main__':
 #     # path = "Test audio/CallRecording3.mp3"
-#     path = "Test videos/Cervical_spine.mp4"
+#     path = "CallRecording1.mp3"
 #     convert(path)
