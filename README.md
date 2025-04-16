@@ -1,6 +1,6 @@
 # AICA
 
-AICA (Automated Intelligent Content Analyzer) is a cutting-edge project designed to analyze audio content, transcribe it into text, and perform multilingual translations and summaries. This repository contains the codebase and instructions to set up and use AICA on your local machine.
+AICA (Audio Intelligent Conversational Agent) is a cutting-edge project designed to analyze audio content, transcribe it into text, and perform multilingual translations and summaries. This repository contains the codebase and instructions to set up and use AICA on your local machine.
 
 ## Features
 
