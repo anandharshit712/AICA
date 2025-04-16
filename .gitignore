@@ -76,3 +76,11 @@ yarn-error.log
 /Backend/CallRecording1.mp3
 /Backend/temp_isolated.wav
 /Backend/temp_reduced.wav
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
