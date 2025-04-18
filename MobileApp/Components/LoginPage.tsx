@@ -3,7 +3,7 @@ import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert, Animated } 
 
 // @ts-ignore
 export default function LoginPage({navigation}){
-    const [username, setUsername] = useState('');
+    const [email, setemail] = useState('');
     const [password, setPassword] = useState('');
     const [isLogin, setIsLogin] = useState(true);
     const flipAnimation = useRef(new Animated.Value(0)).current;
@@ -11,10 +11,10 @@ export default function LoginPage({navigation}){
     // Handles login
     const handleLogin = async () => {
         try {
-            const response = await fetch('http://192.168.32.4:3000/api/auth/login', {
+            const response = await fetch('http://10.5.122.238:3001/api/auth/login', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({username, password}),
+                body: JSON.stringify({email, password}),
             });
             const data = await response.json();
             if (response.ok) {
@@ -25,16 +25,17 @@ export default function LoginPage({navigation}){
             }
         } catch (error) {
             Alert.alert('Error', 'An error occurred during login. Please try again.');
+            console.log(error)
         }
     };
 
     // Handles Registration
     const handleRegister = async () => {
         try {
-            const response = await fetch('http://192.168.32.4:3000/api/auth/register', {
+            const response = await fetch('http://10.5.122.238:3001/api/auth/register', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({username, password}),
+                body: JSON.stringify({email, password}),
             });
             const data = await response.json();
             if (response.ok) {
@@ -78,13 +79,15 @@ export default function LoginPage({navigation}){
                         <Text style={styles.title}>Login</Text>
                             <TextInput
                                 style={styles.input}
-                                placeholder="Username"
-                                value={username}
-                                onChangeText={setUsername}
+                                placeholder="Email"
+                                placeholderTextColor="#011514"
+                                value={email}
+                                onChangeText={setemail}
                                 autoCapitalize="none" />
                             <TextInput
                                 style={styles.input}
                                 placeholder="Password"
+                                placeholderTextColor="#011514"
                                 value={password}
                                 onChangeText={setPassword}
                                 secureTextEntry={true} />
@@ -98,14 +101,16 @@ export default function LoginPage({navigation}){
                         <Text style={styles.title}>Register</Text>
                         <TextInput
                             style={styles.input}
-                            placeholder="Username"
-                            value={username}
-                            onChangeText={setUsername}
+                            placeholder="Email"
+                            placeholderTextColor="#011514"
+                            value={email}
+                            onChangeText={setemail}
                             autoCapitalize="none"
                         />
                         <TextInput
                             style={styles.input}
                             placeholder="Password"
+                            placeholderTextColor="#011514"
                             value={password}
                             onChangeText={setPassword}
                             secureTextEntry={true}
@@ -159,7 +164,7 @@ const styles = StyleSheet.create({
         borderWidth: 0.5,
         borderRadius: 20,
         margin: 12,
-        borderColor: '#000',
+        borderColor: '#6dc5b5',
         backgroundColor: '#DEF5E5',
         paddingHorizontal: 15,
     },

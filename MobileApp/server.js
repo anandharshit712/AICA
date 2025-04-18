@@ -1,38 +1,40 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const path = require('path');
 const authRoutes = require('./auth');
 
 const app = express();
 const PORT = 3001;
 
-const mysql = require('mysql');
+// Enhanced CORS configuration
+app.use(cors({
+    origin: ['http://localhost:3000', 'http://10.5.122.238:3000'],
+    methods: ['GET', 'POST', 'OPTIONS'],
+    allowedHeaders: ['Content-Type'],
+    credentials: true
+}));
 
-// Create a MySQL connection
-const connection = mysql.createConnection({
-  host: '127.0.0.1',  // Use 127.0.0.1 instead of ::1
-  user: 'root',
-  password: 'admin',
-  database: 'login_audio_app',
-});
-
-connection.connect((err) => {
-  if (err) {
-    console.error('Error connecting to MySQL: ' + err.stack);
-    return;
-  }
-  console.log('Connected to MySQL as id ' + connection.threadId);
-});
-
-// Middleware to parse JSON and serve static files
+// Middleware
 app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, 'public'))); // Serve static files
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
-// Mount the auth routes
+// Route logging
+app.use((req, res, next) => {
+    console.log(`${new Date().toISOString()} - ${req.method} ${req.url}`);
+    next();
+});
+
+// Health check endpoint
+app.get('/api/auth/healthcheck', (req, res) => {
+    res.status(200).json({ status: 'healthy', timestamp: new Date().toISOString() });
+});
+
+// Routes
 app.use('/api/auth', authRoutes);
 
-// Start the server
+// Start server
 app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+    console.log(`Server running at http://10.5.122.238:${PORT}`);
 });
